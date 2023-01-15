@@ -4,7 +4,6 @@
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-
 }
 /* heading */
 .portfolio span:nth-of-type(1) {
@@ -20,8 +19,8 @@
 }
 
 /* slider */
-.portfolio .swiper{
-    overflow: visible!important;
+.portfolio .swiper {
+  overflow: visible !important;
 }
 
 .portfolio-slider {

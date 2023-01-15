@@ -1,97 +1,87 @@
-.works{
-    padding: 0 3rem 0 3rem;
-    display: flex;
-    height: 90vh;
-    margin-top: 4rem;
+.works {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  margin-top: 4rem;
 }
 
-.works-right{
-    position: relative;
+.works-right {
+  position: relative;
 }
 
-.main-circle{
-    left: 9rem;
-    position: relative;
-    width: 18rem;
-    height:18rem;
-    border-radius: 100%;
-    box-shadow: var(--smboxShadow);
-    top: 2rem;
-    background: white;
+.main-circle {
+  left: 9rem;
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+  box-shadow: var(--smboxShadow);
+  top: 2rem;
+  background: white;
 }
 
-.main-circle >*{
-    position: absolute;
+.main-circle > * {
+  position: absolute;
 }
 
-.main-circle > :nth-child(1){
-    top: -3rem;
-    left: 6rem;
-
+.main-circle > :nth-child(1) {
+  top: -3rem;
+  left: 6rem;
 }
-.main-circle > :nth-child(2){
-    left: -3rem;
-    top: 5rem;
-    
+.main-circle > :nth-child(2) {
+  left: -3rem;
+  top: 5rem;
 }
-.main-circle > :nth-child(3){
-    left: 6rem;
-    top: 5rem;
-    
+.main-circle > :nth-child(3) {
+  left: 6rem;
+  top: 5rem;
 }
-.main-circle > :nth-child(4){
-    left: 15rem;
-    top: 5rem;
-    
+.main-circle > :nth-child(4) {
+  left: 15rem;
+  top: 5rem;
 }
 
-.main-circle > :nth-child(5){
-    left: 6rem;
-    top: 13rem;
-    
+.main-circle > :nth-child(5) {
+  left: 6rem;
+  top: 13rem;
 }
-.secondary-circle{
-    width:6rem;
-    height:6rem;
-    position:absolute;
-    border-radius: 100%;
-    border: 5px solid #ebebeb ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: none;
-    box-shadow: var(--smboxShadow);
-    background: white;
-
+.secondary-circle {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: var(--smboxShadow);
+  background: white;
 }
 
-.secondary-circle >img{
-    transform: scale(0.6);
-
+.secondary-circle > img {
+  transform: scale(0.6);
 }
 
-.back-circle{
-   position: absolute;
-   height: 13rem;
-   width:13rem;
-   border-radius: 100%;
-   z-index: -1;
-
+.back-circle {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: -1;
 }
 
-
-.blue-circle{
-    background: #194988;
-    left:18rem;
-    top:0rem
+.blue-circle {
+  background: #194988;
+  left: 18rem;
+  top: 0rem;
 }
 
-.yellow-circle{
-    background: #F5c32C;
-    left:18rem;
-    top:8rem;
+.yellow-circle {
+  background: #f5c32c;
+  left: 18rem;
+  top: 8rem;
 }
-
 
 @media screen and (max-width: 480px) {
   .works {
@@ -104,15 +94,13 @@
   .works-right {
     display: flex;
     align-items: flex-start;
-    justify-content:start;
+    justify-content: start;
     transform: scale(0.7);
   }
-  .mainCircle{
+  .mainCircle {
     position: static;
   }
-  .backCircle{
-    left: 8rem!important;
+  .backCircle {
+    left: 8rem !important;
   }
-
 }
-
